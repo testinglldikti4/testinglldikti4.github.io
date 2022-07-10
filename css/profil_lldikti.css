@@ -1,0 +1,12 @@
+/* ===== Colours ===== */
+:root{
+    --body-color: #E4E9F7;
+    --nav-color: #E4E9F7;
+    --side-nav: #010718;
+    --text-color-white: #FFF;
+    --text-color-black: #010718;
+    --text-color-second-black: #1f1f1f;
+    --background-color-first: #f7f9fd;
+    --background-color-second: #F2F2F2;
+    --background-contact: #d4dfff;
+}

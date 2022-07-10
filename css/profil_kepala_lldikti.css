@@ -1,0 +1,116 @@
+/* ===== Colours ===== */
+:root{
+    --body-color: #E4E9F7;
+    --nav-color: #E4E9F7;
+    --side-nav: #010718;
+    --text-color-white: #FFF;
+    --text-color-black: #010718;
+    --text-color-second-black: #1f1f1f;
+    --background-color-first: #f7f9fd;
+    --background-color-second: #F2F2F2;
+    --background-contact: #d4dfff;
+}
+
+section.leader{
+    min-height: 70vh;
+    padding: 0 3%;
+    padding-top: 4rem;
+    min-height: 100vh;
+    padding-bottom: 4rem;
+}
+
+.leader .container{
+    width: 100%;
+    padding: 2rem 2rem;
+    background: var(--background-color-first);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.2);
+    border-radius: .5rem;
+}
+
+.leader .container .img{
+    max-width: 240px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-right: 1rem;
+}
+
+.leader .container .img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.leader .container h1{
+    color: var(--text-color-black);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: .3rem;
+}
+
+.leader .container h3{
+    color: var(--text-color-black);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.leader .container p{
+    color: var(--text-color-second-black);
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.leader .container h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.leader .container ul{
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.leader .container ul li{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 576px){
+    .leader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leader .container .img{
+        float: none;
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .leader .container .img img{
+        object-fit: contain;
+    }
+
+    .leader .container h1{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    
+    .leader .container h3{
+        text-align: center;
+    }
+}
