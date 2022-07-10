@@ -24,6 +24,10 @@
     --background-contact: #d4dfff;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     background-color: var(--body-color);
     overflow-x: hidden;
